@@ -4,10 +4,10 @@ import numpy as np
 import librosa
 
 DB_PATH = "songs/"  # Folder containing reference songs
-DB_JSON = "database.json"
+DB_JSON = "database2.json"
 
 
-def extractSlidingFingerprints(filePath, segmentDuration=5.0, overlap=0.5):
+def extractSlidingFingerprints(filePath, segmentDuration=2.0, overlap=0.5):
     y, sr = librosa.load(filePath, sr=None)
     hop = int((1 - overlap) * segmentDuration * sr)
     win = int(segmentDuration * sr)
@@ -48,10 +48,10 @@ def buildDatabase():
     for file in os.listdir(DB_PATH):
         if file.endswith(".wav"):
             path = os.path.join(DB_PATH, file)
-            fingerprint = extractFingerprint(path)
-            if fingerprint is None:
-                continue
-            normalizedFingerprint = normalizeVector(fingerprint)
+            #fingerprint = extractFingerprint(path)
+            # if fingerprint is None:
+            #     continue
+            #normalizedFingerprint = normalizeVector(fingerprint)
             #database[file] = normalizedFingerprint
             database[file] = extractSlidingFingerprints(path)
     with open(DB_JSON, "w") as f:

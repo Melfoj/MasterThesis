@@ -1,0 +1,24 @@
+		Refren		Strofa		Instrumental
+CaliforniaGurls	0:52-1:20	2:24-2:59	x
+
+ChuckTaylor	1:00-1:18	0:25-0:42	x
+
+Compensating	1:58-2:16	0:19-0:30	2:57-3:15
+
+CrazyTrain	1:15-1:26	0:40-1:08	0:19-0:35
+
+HowDeep		0:30-0:50	0:01-0:21	x
+
+LostInJapan	0:40-0:57	0:23-0:37	0:01-0:20
+
+LoveAndWar	1:48-2:10	0:20-0:35	1:02-1:10
+
+OtherBeds	0:49-1:18	0:02-0:32	x
+
+Starlight	1:02-1:17	0:15-0:52	x
+
+Swervin		0:10-0:31	0:33-0:59	2:56-3:04
+
+TokyoDrift	0:11-0:41	0:43-0:57	0:01-0:10
+
+WhatDoYouMean	0:15-0:45	0:48-1:04	0:01-0:12
